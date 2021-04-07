@@ -1,0 +1,97 @@
+/* css reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lobster', cursive;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* logo and images  */
+
+#logo{
+    margin: 2px 15px;
+}
+#logo img{
+    margin: 2px 2px;
+    height: 60px;
+}
+/* list items */
+#nav ul {
+    display: flex;
+}
+#nav ul li{
+    /* color: ; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+#nav ul li a{
+    color: white;
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;}
+#nav ul li a:hover{
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+  
+}
+#nav::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding:10px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before {
+    content: "";
+    background:url("../bg1.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.h1{
+    font-size: 3rem;
+    padding:15px}
+
+.secondary{
+    font-size: 2.5rem;
+    padding:15px
+}
+.btn {
+    padding: 4px 20px;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
