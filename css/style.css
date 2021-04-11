@@ -43,6 +43,8 @@
     content: "";
     background-color: black;
     position: absolute;
+    top: 0%;
+    left: 0%;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -52,8 +54,8 @@
 #home {
     display: flex;
     flex-direction: column;
-    padding:10px 200px;
-    height: 400px;
+    padding: 10px 200px;
+    height: 457px;
     justify-content: center;
     align-items: center;
 }
@@ -62,6 +64,8 @@
     background:url("../bg1.jpg") no-repeat center center/cover;
     position: absolute;
     height: 100%;
+    top: 0%;
+    left: 0%;
     width: 100%;
     z-index: -1;
     opacity: 0.8;
@@ -94,4 +98,25 @@
 
 .center {
     text-align: center;
+}
+#services {
+    margin: 20px;
+    display: flex;
+}
+#services .box {
+    border: 2px solid black;
+    padding: 25px;
+    margin: 6px;
+    border-radius: 19px;
+    background-color: #f3ebeb;
+}
+
+
+.img {
+    height: 112px;
+    display: block;
+    margin: auto;
+}
+#our {
+    margin-top: 80px;
 }
