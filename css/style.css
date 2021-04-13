@@ -120,3 +120,12 @@
 #our {
     margin-top: 80px;
 }
+#clints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clint-section {
+    height: 300px;
+
+}
