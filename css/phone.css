@@ -1,0 +1,33 @@
+#nav {
+flex-direction: column;
+}
+#nav ul li a {
+    font-size: 2rem;
+    padding:0% 7px;
+}
+#home{
+height: 270px;
+flex-direction: column;
+padding: 10px 20px;
+}
+#home p{
+    font-size: 1rem;
+}
+#home::before{
+    height: 400px;
+}
+
+#services{
+    flex-direction: column;
+}
+#services .box{
+    
+}
+
+#clients {
+    overflow: hidden;
+}
+
+.h1 {
+    font-size: 30px;
+}
